@@ -33,9 +33,6 @@ FILES_${PN} += "\
     ${ros_datadir} \
     ${ros_sysconfdir} \
     ${ros_stacksdir} \
-    "
-
-FILES_${PN}-dev += "\
     ${ros_includedir} \
     ${ros_libdir}/pkgconfig \
     ${PYTHON_SITEPACKAGES_DIR}/*.la \
